@@ -1,0 +1,113 @@
+#dgMessage {
+	display: none;
+	font-weight: bold;
+	color: white;
+}
+.dgMessageOK {
+	background-color: black;
+}
+.dgMessageError {
+	background-color: red;
+}
+.dgMessageHint {
+	background-color: green;
+}
+
+
+div.dataGrid {
+	border: 1px solid #ececec;
+	width: 99.9%;
+	background-color: #ffffff;
+}
+table.dgTableHead {
+	table-layout: fixed;
+	background-color: #000000;
+	color: #ffffff;
+	font-weight: bold;
+	width: 100%;
+	cursor: pointer;
+}
+table.dgTableHead td {
+	overflow: hidden;
+    padding: 2px 0px 2px 3px;
+    margin: 0px;
+    height: 22px;
+    line-height: 12px;
+    border-right: 1px solid #ECE9D8;
+    border-bottom: 1px solid #ECE9D8;
+}
+
+div.dgDivScroll {
+	width: 100%;
+	overflow: auto;
+}
+div.dgDivScrollLoading {
+	background-color: #ECE9D8;
+	background-image: url(loading.gif);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+table.dgTableFoot {
+	width: 100%;
+	background-color: #ECE9D8;
+}
+table.dgTableHead td {
+	overflow: hidden;
+    margin: 0px;
+    border-right: 1px solid #ECE9D8;
+    border-bottom: 1px solid #ECE9D8;
+}
+
+table.dgTableData {
+	table-layout: fixed;
+	width: 99.8%;
+}
+table.dgTableData td {
+	overflow: hidden;
+    padding: 2px 0px 2px 4px;
+    margin: 0px;
+    height: auto;
+    line-height: 12px;
+}
+
+tr.dgRow {
+	background-color: #ffffff;
+	width: 100%;
+}
+tr.dgRowSelected {
+	background-color: #339900;
+	width: 100%;
+	color: white;
+}
+tr.dgRowSelectedActive {
+	background-color: #44CC00;
+	width: 100%;
+	color: white;
+}
+tr.dgRowActive {
+	background-color: #FFFF00;
+	width: 100%;
+}
+tr.dgRowSeparator {
+	background-color: #ECE9D8;
+	width: 100%;
+	/*height: 5px; overwritten  by JS*/
+}
+
+fieldset.dataGridLegend {
+	margin-top: 1em;
+	width: 40em;
+}
+
+.dgPositiveAmount, .dgOverMaxAmount {
+	color: #000000;
+}
+
+.dgNegativeAmount, .dgUnderMinAmount {
+	color: #ff0000;
+}
+
+.dgOverMaxAmount, .dgUnderMinAmount {
+	font-weight: bold;
+}

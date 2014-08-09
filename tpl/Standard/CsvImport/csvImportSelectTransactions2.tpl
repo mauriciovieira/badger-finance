@@ -1,0 +1,46 @@
+<tr>
+   	<td>
+		<center>
+			$tableSelectCheckbox
+		</center>
+	</td>
+	<td>
+		$tableSelectCategory
+	</td>
+	<td nowrap="nowrap">
+		$tableValutaDate
+	</td>
+	<td>
+		$tableTitle
+	</td>
+	<td>
+		$tableAmount
+	</td>
+	<td>
+		$tableTransactionPartner
+	</td>
+	<td>
+		$tableDescription
+	</td>
+	<td>
+		<center>
+			$tablePeriodicalCheckbox
+		</center>
+	</td>
+	<td>
+		<center>
+			$tableExceptionalCheckbox
+		</center>
+	</td>
+	<td>
+		<center>
+			$tableOutsideCheckbox
+		</center>
+	</td>
+	<td>
+		$tableSelectAccount
+	</td>
+	<td>
+		$tableSelectMatchingTransaction
+	</td>
+</tr>

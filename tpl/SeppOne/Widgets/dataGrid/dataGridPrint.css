@@ -1,0 +1,63 @@
+div.dataGrid {
+	border: 1px solid #ececec;
+	background-color: #ffffff;
+}
+table.dgTableHead {
+	table-layout: fixed;
+	background-color: #000000;
+	color: #ffffff;
+	font-weight: bold;
+	width: 100%;
+	cursor: pointer;
+}
+table.dgTableHead td {
+	overflow: hidden;
+    padding: 2px 0px 2px 3px;
+    margin: 0px;
+    height: 22px;
+    line-height: 12px;
+    border-right: 1px solid #ECE9D8;
+    border-bottom: 1px solid #ECE9D8;
+}
+div.dgDivScroll {
+	width: 100%;
+}
+table.dgTableFoot {
+	display: none;
+}
+table.dgTableData {
+	table-layout: fixed;
+	width: 99.8%;
+}
+table.dgTableData td {
+	overflow: hidden;
+    padding: 2px 0px 2px 3px;
+    margin: 0px;
+    height: auto;
+    line-height: 12px;
+}
+
+tr.dgRow {
+	background-color: #ffffff;
+	width: 100%;
+}
+tr.dgRowSelected {
+	background-color: #339900;
+	width: 100%;
+	color: white;
+}
+tr.dgRowSelectedActive {
+	background-color: #44CC00;
+	width: 100%;
+	color: white;
+}
+tr.dgRowActive {
+	background-color: #FFFF00;
+	width: 100%;
+}
+tr.dgRowSeparator {
+	background-color: #EFEDDE;
+	width: 100%;
+	/*height: 5px; overwritten  by JS*/
+}
+	

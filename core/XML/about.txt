@@ -1,0 +1,2 @@
+DataGridXML provides XML output to the DataGrid.
+The other files are used by DataGridXML.

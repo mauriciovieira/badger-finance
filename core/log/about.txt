@@ -1,0 +1,1 @@
+log is a module taken from pear.php.net and expanded by Clemens. I helped a bit.

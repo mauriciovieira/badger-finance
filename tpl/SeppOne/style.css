@@ -1,0 +1,231 @@
+body, html {
+	margin: 0px;
+	padding: 0px;
+	background-color: #FAFBED;
+	width: 99.9%;
+}
+
+body, form, img {
+	margin: 0px 0px 0px 0px;	
+}
+
+body, table {
+	font-family: Tahoma, Helvetica, sans, Arial, sans-serif;
+	font-size: 10pt;
+}
+h1 {
+	font-family: Tahoma, Helvetica, sans, Arial, sans-serif;
+	font-size: 12pt;
+}
+h2 {
+	font-family: Tahoma, Helvetica, sans, Arial, sans-serif;
+	font-size: 11pt;
+}
+h3 {
+	font-family: Tahoma, Helvetica, sans, Arial, sans-serif;
+	font-size: 10pt;
+}
+
+#header {
+	background-color: #D3E3FC;
+	background-image: url(background.jpg);
+	background-position: left;
+	background-repeat: no-repeat;
+	height: 43px;
+	width: 100%;
+}
+#header table {
+	font-size: 12pt;	
+}
+#staticMenuBar {
+	width: 100%;
+}
+#content {
+	margin: 5px 5px 5px 5px;
+}
+
+#footer {
+	clear: both;
+	text-align: center;
+	font-size: 8pt;
+}
+#footer a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #000000;
+}
+#footer a:hover { 
+	text-decoration:underline;
+}
+
+/* BEGIN CSV-Report */
+#CSVscroll {
+	height: 390px;
+	width: 100%;
+	overflow: scroll;
+}
+#CSVscroll table {
+	border: 1px solid #000000;
+	background-color: #ffffff;
+}
+
+#CSVscroll table th {
+	background-color: #EFEDDE;
+	color: #000000;
+	font-weight: bold;
+	border-bottom: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    border-left: 1px solid #ffffff;  
+}
+#CSVscroll table td {
+    border-right: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+/* END CSV-Report */
+
+/* about badger */
+blockquote {
+	font-family: monospace;
+	border: 1px dashed grey;
+	margin: auto;
+	padding-left: 1em;
+	padding-right: 1em;
+	width: 90%;	
+}
+
+/* statistics, forecasts */
+.flashContainer {
+	background-color: #ECE9D8;
+	float: left;
+}
+
+.flashClear {
+	clear: both;
+}
+
+/* FORMS */
+label {
+/*	float: left;
+	text-align: right;*/
+	cursor: pointer;	
+}
+label.mandatory {
+	/*color: #595959;*/
+	font-weight: bold;
+}
+legend {
+	font-weight: bold;
+}
+fieldset {
+	-moz-border-radius: 8px;	
+}
+
+input, textarea, select {
+	font-family: Tahoma, Helvetica, sans, Arial, sans-serif;
+	font-size: 10pt;
+	/*border: 1px solid #d4d4d4;*/
+	border-top: 1px solid #d4d4d4;
+	border-left: 1px solid #d4d4d4;
+	border-bottom: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+}
+input, textarea {
+	padding-left: 0.3ex;
+	padding-right: 0.3ex;
+}
+
+input:focus, textarea:focus, select:focus {
+	background-color: #FFCCCC;
+	border: 1px solid #d4d4d4;
+}
+input.inputString {
+	
+}
+input.inputNumber {
+	text-align: right;
+}	
+input.inputNumberMinus {
+	text-align: right;
+	color: #F50000;
+}
+button {
+	border: 1px solid #7D7D7D;
+	margin: 2px 2px 2px 2px;
+	padding: 1px 4px 1px 4px;
+	cursor: pointer;
+	overflow: visible;
+}
+button:hover {
+	border: 1px solid #4A4A4A;
+	margin: 2px 2px 2px 2px;
+	cursor: pointer;
+}
+/* END FORMS */
+
+
+/* SUGGEST */
+.SuggestFramework_List {
+	border: 1px solid #CCCCCC;
+	border-top: 0;
+}
+.SuggestFramework_Heading {
+	padding: 0 1px 0 1px;
+	background-color: #CCCCCC;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.SuggestFramework_Highlighted {
+	padding: 0 1px 0 1px;
+	background-color: Highlight;
+	color: HighlightText;
+}
+.SuggestFramework_Normal {
+	padding: 0 1px 0 1px;
+	background-color: #FFFFFF;
+	color: #000000;
+}
+/* END SUGGEST */
+
+/* TOOLTIP */
+.TTDiv {
+  border: 1px #d4d4d4 solid;
+  background-color: #FFFFCC;
+  line-height: normal;
+} 
+.TTbodyText { 
+  font-family: Tahoma, Helvetica, sans, Arial, sans-serif;
+  font-weight: bold; 
+  color: #000000; 
+  font-style: normal;  
+  text-align: left; 
+  padding: 3px;
+  font-size: 8pt;
+}
+/* TOOLTIP END */
+
+/* LOGIN SCREEN*/
+.LSPrompt {
+	font-weight: bold;
+}
+/* LOGIN SCREEN END*/
+
+/* USER SETTINGS ADMIN */
+.USAHeading {
+	font-weight: bold;
+}
+.USAError {
+	color: red;
+}
+/* USER SETTINGS ADMIN END*/
+
+/* FORM VALIDATION  BEGIN */
+input.error, select.error {
+	border: 1px solid red;
+	background-color: #FFFCE2;
+	/*
+	padding-right: 16px;
+	background-image: url(images/warning_obj.gif);
+	background-position: right;
+	background-repeat: no-repeat; -> unused*/
+}
+/* FORM VALIDATION  END */

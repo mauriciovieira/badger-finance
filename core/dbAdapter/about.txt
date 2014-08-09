@@ -1,0 +1,1 @@
+dbAdapter is the PEAR DB module from pear.php.net

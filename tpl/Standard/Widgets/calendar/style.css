@@ -1,0 +1,128 @@
+#calendar {
+	z-index: +999;
+	position: absolute;
+	visibility: hidden;
+	border: 1px solid #A0A0A0;
+	background-color: #ffffff;
+}
+#calendar a {
+	text-decoration:none;
+	color:#99cc00;
+}
+#calendar table {
+	font-size: 12px;
+	border-spacing: 0px 0px;
+}
+
+tr.calendarHead {
+	background-color: #99cc00;
+}
+td.CALCaption {
+	padding: 2px;
+}
+
+span.CALCaption {
+	font-weight: bold;
+	color:#ffffff;
+}
+
+td.CALContent {
+	background-color: #ffffff;
+	padding: 5px;
+}
+
+div.CALContent {
+	display:inline;
+}
+
+tr.CALTodayString td {
+	padding: 5px;
+	text-align: center;
+	background-color: #f0f0f0;
+	font-size: 11px;
+}
+
+#selectMonth {
+	z-index:+999;
+	position:absolute;
+	visibility:hidden;
+}
+
+#selectYear {
+	z-index:+999;
+	position:absolute;
+	visibility:hidden;
+}
+
+span.spanFilterBox {
+	border:1px solid #BFFF00;
+	cursor:pointer;
+}
+span.spanActive {
+	border: 1px solid black;
+}
+
+td.selectMouseOver {
+	background-color: #99cc00;
+}
+
+table.selectMonthYear {
+	text-align: center;
+	font-size: 11px;
+	border:1px solid #a0a0a0;
+	background-color:#f0f0f0
+}
+
+span.CALYearSelected {
+	color:#000000;
+	font-weight:bold
+}
+
+span.CALYear {
+	color:#000000;
+}
+
+td.CALweekseparator {
+	padding:0px;
+	background-color:#d0d0d0;
+}
+
+span.CALDayNames {
+	color:#99cc00;
+}
+span.CALWeekNumbers {
+	
+}
+
+span.CALToday {
+	color:#ff0000;
+	font-weight: bold;
+}
+
+span.CALWeekday {
+	color:#C7C7C7
+}
+
+span.CALWeekdayPast {
+	color:#909090
+}
+
+span.CALSaturday {
+	color:#99cc00
+}
+
+span.CALSaturdayPast {
+	color:#909090
+}
+
+span.CALSunday {
+	color:#99cc00
+}
+
+span.CALSundayPast {
+	color:#909090
+}
+
+a.CALselectedDay {
+	border: 1px solid #ff0000
+}

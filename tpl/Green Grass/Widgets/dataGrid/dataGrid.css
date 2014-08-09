@@ -1,0 +1,138 @@
+span.dgMessage {
+	display: none;
+	font-weight: bold;
+	/*color: white;*/
+}
+.dgMessageOK {
+	background-color: #000000;
+	color: #ffffff;
+}
+.dgMessageError {
+	background-color: #000000;
+	color: #ff0000;
+}
+.dgMessageHint {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+div.dataGrid {
+	border: 1px solid #000000;
+	width: 100%;
+	background-color: #ffffff;
+}
+table.dgTableHead {
+	table-layout: fixed;
+	background-image: url(row-dark.jpg);
+	color: #ffffff;
+	font-weight: bold;
+	width: 100%;
+	cursor: pointer;
+	border-bottom: 1px solid #cccccc;	
+}
+
+table.dgTableHead td {
+	overflow: hidden;
+    padding: 2px 0px 2px 3px;
+    margin: 0px;
+    height: 22px;
+    text-align: center;
+    line-height: 12px;
+    border-right: 1px solid #cccccc;
+}
+
+div.dgDivScroll {
+	width: 100%;
+	overflow: auto;
+}
+
+div.dgDivScrollLoading {
+	background-color: #f7f7f7;
+	background-image: url(loading.gif);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+table.dgTableFoot {
+	width: 100%;
+	background-image: url(row-grey.jpg);
+	border-top: 1px solid #cccccc;
+}
+table.dgTableFoot td {
+	overflow: hidden;
+    margin: 0px;
+    border-right: 1px solid #cccccc;
+}
+
+table.dgTableData {
+	table-layout: fixed;
+	width: 99.95%;
+}
+
+*table.dgTableData { /* only for IE*/
+	table-layout: fixed;
+	width: auto;
+}
+
+
+table.dgTableData td {
+	overflow: hidden;
+    padding: 2px 0px 2px 3px;
+    margin: 0px;
+    height: auto;
+    line-height: 12px;
+    
+    border-right: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+
+tr.dgRow {
+	background-image: url(row-lightgrey.jpg);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	width: 100%;
+}
+tr.dgRowSelected {
+	width: 100%;
+	background-color: #e4fcae;
+	background-image: url(row-green.jpg);
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+tr.dgRowSelectedActive {
+	width: 100%;
+	background-color: #cbf182;
+	background-image: url(row-green2.jpg);
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+tr.dgRowActive {
+	width: 100%;
+	background-color: #cbf182;
+	background-image: url(row-green2.jpg);
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+tr.dgRowSeparator {
+	background-color: #484848;
+	width: 100%;
+	/*height: 5px; overwritten  by JS*/
+}
+
+
+fieldset.dataGridLegend {
+	margin-top: 1em;
+	width: 40em;
+}
+
+.dgPositiveAmount, .dgOverMaxAmount {
+	color: #007f00;
+}
+
+.dgNegativeAmount, .dgUnderMinAmount {
+	color: #FF3333;
+}
+
+.dgOverMaxAmount, .dgUnderMinAmount {
+	font-weight: bold;
+}
